@@ -1,0 +1,43 @@
+# RAG Document Intelligence System - Requirements
+# Install with: pip install -r requirements.txt
+
+# PDF Processing
+pymupdf>=1.24.0
+camelot-py[cv]>=0.11.0
+opencv-python-headless>=4.8.0
+
+# Embeddings & ML
+sentence-transformers>=2.3.0
+numpy>=1.24.0
+einops>=0.7.0
+
+# Vector Database
+chromadb>=0.4.22
+
+# LangChain & LangGraph
+langchain>=0.1.0
+langgraph>=0.0.30
+
+# LLM Integration (Groq via OpenAI-compatible API)
+httpx>=0.27.0
+
+# API Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.6
+
+# Data Processing
+pandas>=2.0.0
+pydantic>=2.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Optional: For table extraction with Camelot
+# ghostscript (system dependency - install separately)
+# Windows : https://ghostscript.com/
+# Linux   : apt-get install ghostscript
+# Mac     : brew install ghostscript
+
+# -- Future: HuggingFace Inference API --
+# huggingface-hub>=0.20.0

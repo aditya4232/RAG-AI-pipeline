@@ -1,0 +1,47 @@
+# ---- Environment & Secrets ----
+.env
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+.conda/
+
+# ---- ChromaDB (local vector database) ----
+chroma_db/
+chroma_db_test/
+
+# ---- Uploads & Logs ----
+uploads/
+logs/
+*.log
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- OS Files ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- Ruff / Linting cache ----
+.ruff_cache/
+
+# ---- Test artifacts ----
+output.log
+
+# ---- Distribution / Build ----
+dist/
+build/
+*.egg-info/
